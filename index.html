@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yosef Agil — Designer &amp; Builder</title>
+  <meta name="description" content="Yosef Agil designs and builds digital products — web apps, 3D experiences, Figma plugins and native tools." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="is-loading">
+
+  <!-- Preloader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__top">
+      <span class="mono">Yosef Agil — Portfolio</span>
+      <span class="mono">©2026</span>
+    </div>
+    <div class="loader__count"><span class="js-count">0</span></div>
+    <div class="loader__bar"><span class="js-bar"></span></div>
+  </div>
+
+  <!-- Cursor -->
+  <div class="cursor" aria-hidden="true"><span class="cursor__label">View</span></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <!-- Hover preview for project index -->
+  <div class="preview" aria-hidden="true"><div class="preview__inner"></div></div>
+
+  <header class="nav">
+    <a href="#top" class="nav__logo magnetic" aria-label="Back to top">YA<sup>®</sup></a>
+    <nav class="nav__links">
+      <a href="#work" class="link">Work</a>
+      <a href="#about" class="link">About</a>
+      <a href="#contact" class="link">Contact</a>
+    </nav>
+    <div class="nav__meta mono">
+      <span class="dot"></span> Jakarta <span class="js-clock">--:--</span>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__eyebrow mono reveal-up">
+        <span>(Product designer &amp; builder)</span>
+        <span>Available — Q1 2027</span>
+      </div>
+
+      <h1 class="hero__title" aria-label="Yosef Agil">
+        <span class="line"><span class="split">Yosef</span></span>
+        <span class="line line--serif"><em class="split-soft">designs, then ships</em></span>
+        <span class="line line--right"><span class="split">Agil</span><span class="hero__star">✳</span></span>
+      </h1>
+
+      <div class="hero__foot">
+        <p class="hero__intro reveal-up">
+          I turn ideas into products people actually use — from finance apps and
+          AI tools to 3D web experiences, Figma plugins and macOS utilities.
+          Design and code, one pair of hands.
+        </p>
+        <a href="#work" class="hero__scroll mono reveal-up" aria-label="Scroll to work">
+          <span>Scroll</span>
+          <svg width="14" height="22" viewBox="0 0 14 22" fill="none"><path d="M7 1v19m0 0L1 14m6 6 6-6" stroke="currentColor" stroke-width="1.5"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Product Design</span><i>✳</i><span>Web Apps</span><i>✳</i><span>3D &amp; WebGL</span><i>✳</i><span>Figma Plugins</span><i>✳</i><span>Native macOS</span><i>✳</i><span>AI Tools</span><i>✳</i>
+        <span>Product Design</span><i>✳</i><span>Web Apps</span><i>✳</i><span>3D &amp; WebGL</span><i>✳</i><span>Figma Plugins</span><i>✳</i><span>Native macOS</span><i>✳</i><span>AI Tools</span><i>✳</i>
+      </div>
+    </div>
+
+    <!-- ABOUT STATEMENT -->
+    <section class="about" id="about">
+      <div class="label mono"><span>01</span> About</div>
+      <p class="about__statement js-words">
+        I'm Yosef, a designer who codes. I care about the space between a good
+        idea and a shipped product — the details, the motion, the moment
+        something just feels right. Based in Indonesia, building for everyone.
+      </p>
+      <div class="about__stats">
+        <div class="stat"><span class="stat__num"><span class="js-num" data-to="7">0</span>+</span><span class="mono">Products shipped in 2026</span></div>
+        <div class="stat"><span class="stat__num"><span class="js-num" data-to="4">0</span></span><span class="mono">Platforms — web, Figma, macOS, kiosk</span></div>
+        <div class="stat"><span class="stat__num"><span class="js-num" data-to="100">0</span>%</span><span class="mono">Designed &amp; built in-house</span></div>
+      </div>
+    </section>
+
+    <!-- FEATURED (stacked cards) -->
+    <section class="featured" id="work">
+      <div class="label mono"><span>02</span> Selected work</div>
+
+      <article class="card" style="--c:#C9D6C2;--ink:#1F2B21">
+        <div class="card__inner">
+          <div class="card__info">
+            <span class="mono">01 / Web app — 2026</span>
+            <h2 class="card__title">Sangu</h2>
+            <p>A personal finance tracker for Indonesian households — expenses, budgets, bills and monthly analysis in one calm interface. <em>"Atur sangu, hidup tenang."</em></p>
+            <ul class="tags mono"><li>Next.js</li><li>Prisma</li><li>Railway</li><li>Product design</li></ul>
+          </div>
+          <div class="card__media" data-cursor="View">
+            <div class="cover cover--shot" style="--bg:#8FA98F"><img src="img/sangu.jpg" alt="Sangu dashboard showing balance, recent transactions, bills and budgets" loading="lazy" /></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" style="--c:#16122B;--ink:#E9E4FF">
+        <div class="card__inner">
+          <div class="card__info">
+            <span class="mono">02 / 3D web experience — 2026</span>
+            <h2 class="card__title">Aether</h2>
+            <p>An interactive 3D art showcase — morphing forms and layered parallax that respond to every scroll and cursor move.</p>
+            <ul class="tags mono"><li>React Three Fiber</li><li>three.js</li><li>Motion</li></ul>
+          </div>
+          <div class="card__media" data-cursor="View">
+            <div class="cover cover--bleed"><img src="img/aether.jpg" alt="Aether hero: a glossy violet 3D blob orbited by neon rings" loading="lazy" /></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" style="--c:#F2EEE6;--ink:#111">
+        <div class="card__inner">
+          <div class="card__info">
+            <span class="mono">03 / SaaS &amp; kiosk — 2026</span>
+            <h2 class="card__title">Thirtys Booth</h2>
+            <p>Self-photo studio system: a print kiosk, booking and POS — now packaged as a subscription for other studios.</p>
+            <ul class="tags mono"><li>React</li><li>Firebase</li><li>Kiosk UX</li><li>SaaS</li></ul>
+          </div>
+          <div class="card__media" data-cursor="View">
+            <div class="cover cover--shot" style="--bg:#2B5BE8"><img src="img/thirtys.jpg" alt="Thirtys Booth landing page with the kiosk photo-picking interface" loading="lazy" /></div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- INDEX LIST -->
+    <section class="index">
+      <div class="index__head">
+        <div class="label mono"><span>03</span> Index</div>
+        <span class="mono index__count">(07)</span>
+      </div>
+      <ul class="index__list">
+        <li class="row" data-cover="sangu"><span class="mono">01</span><h3>Sangu</h3><span class="row__type">Finance web app</span><span class="mono">2026</span></li>
+        <li class="row" data-cover="aether"><span class="mono">02</span><h3>Aether</h3><span class="row__type">3D art showcase</span><span class="mono">2026</span></li>
+        <li class="row" data-cover="deskri"><span class="mono">03</span><h3>DeskriAI</h3><span class="row__type">AI product copywriter</span><span class="mono">2026</span></li>
+        <li class="row" data-cover="pop"><span class="mono">04</span><h3>PopSticker</h3><span class="row__type">Figma plugin</span><span class="mono">2026</span></li>
+        <li class="row" data-cover="e3d"><span class="mono">05</span><h3>Everything 3D</h3><span class="row__type">Figma plugin · three.js</span><span class="mono">2026</span></li>
+        <li class="row" data-cover="proofr"><span class="mono">06</span><h3>Proofr</h3><span class="row__type">macOS menu bar app</span><span class="mono">2026</span></li>
+        <li class="row" data-cover="thirtys"><span class="mono">07</span><h3>Thirtys Booth</h3><span class="row__type">Kiosk SaaS</span><span class="mono">2026</span></li>
+      </ul>
+
+      <!-- cover templates for preview -->
+      <template id="tpl-sangu"><div class="cover cover--shot" style="--bg:#8FA98F"><img src="img/sangu.jpg" alt="" /></div></template>
+      <template id="tpl-aether"><div class="cover cover--bleed"><img src="img/aether.jpg" alt="" /></div></template>
+      <template id="tpl-deskri"><div class="cover cover--shot" style="--bg:#DCE6FF"><img src="img/deskri.jpg" alt="" /></div></template>
+      <template id="tpl-pop"><div class="cover cover--pop"><b>Pop!</b></div></template>
+      <template id="tpl-e3d"><div class="cover cover--panel" style="--bg:#FF7A45"><img src="img/e3d.jpg" alt="" /></div></template>
+      <template id="tpl-proofr"><div class="cover cover--proofr"><kbd>⌥</kbd><kbd class="wide">Space</kbd></div></template>
+      <template id="tpl-thirtys"><div class="cover cover--shot" style="--bg:#2B5BE8"><img src="img/thirtys.jpg" alt="" /></div></template>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services">
+      <div class="label mono"><span>04</span> What I do</div>
+      <div class="services__grid">
+        <div class="service">
+          <span class="mono">(a)</span>
+          <h3>Product design</h3>
+          <p>Research, flows, UI systems and prototypes that hold up in real use — not just in Dribbble shots.</p>
+        </div>
+        <div class="service">
+          <span class="mono">(b)</span>
+          <h3>Front-end &amp; full-stack</h3>
+          <p>Next.js, React, Prisma, Firebase. I take designs all the way to production and keep them running.</p>
+        </div>
+        <div class="service">
+          <span class="mono">(c)</span>
+          <h3>Creative dev &amp; 3D</h3>
+          <p>WebGL, three.js and motion that give a brand a feeling, not just a layout.</p>
+        </div>
+        <div class="service">
+          <span class="mono">(d)</span>
+          <h3>Tools &amp; plugins</h3>
+          <p>Figma plugins, macOS utilities and AI-powered helpers that remove the boring parts of work.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CONTACT / FOOTER -->
+  <footer class="contact" id="contact">
+    <div class="label mono"><span>05</span> Contact</div>
+    <p class="contact__lead">Have a product in mind?</p>
+    <a href="mailto:yosefuiux@gmail.com" class="contact__big" data-cursor="Write">
+      <span class="line"><span class="split">Let's</span></span>
+      <span class="line"><span class="split">talk</span><span class="contact__arrow">→</span></span>
+    </a>
+    <div class="contact__foot">
+      <a href="mailto:yosefuiux@gmail.com" class="link mono">yosefuiux@gmail.com</a>
+      <div class="contact__social mono">
+        <a href="#" class="link">LinkedIn</a>
+        <a href="#" class="link">Dribbble</a>
+        <a href="#" class="link">GitHub</a>
+      </div>
+      <span class="mono">©2026 Yosef Agil</span>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
